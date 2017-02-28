@@ -1,0 +1,46 @@
+@import 'scss/mixins';
+@import 'scss/variables';
+@import 'scss/fonts';
+@import 'app/business-list/business';
+
+*{
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+.header-title {
+  flex: 1;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+section {
+    .image-container {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .text-container {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}

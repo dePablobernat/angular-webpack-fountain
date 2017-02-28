@@ -1,0 +1,113 @@
+// Fonts
+// @include font-face(#{$font-titles}, '../fonts/montserrat-bold-webfont', bold);
+// @include font-face(#{$font-subtitles}, '../fonts/montserrat-regular-webfont', normal);
+// @include font-face(#{$font-body-bold}, '../fonts/cardo-bold-webfont', bold);
+// @include font-face(#{$font-body-regular}, '../fonts/cardo-regular-webfont', normal);
+// @include font-face(#{$font-body-semibold}, '../fonts/cardo-regular-webfont', 600);
+
+// TYPOGRAPHY
+
+body {
+  -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+  background-color: $background-color;
+  color: $text-gray;
+  font-family: $font-body-regular;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-titles, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: $white;
+  font-size: 2.625rem;
+}
+
+h2 {
+  color: $secondary-color;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: $font-subtitles;
+  font-size: .875rem;
+  margin-bottom: .5rem;
+}
+
+p {
+  font-size: 1.125rem;
+  padding-bottom: .7rem;
+
+  + {
+
+    h2 {
+      margin-top: .5rem;
+    }
+
+    h3 {
+      margin-top: .5rem;
+    }
+
+    h4 {
+      margin-top: .25rem;
+    }
+
+    div {
+      margin-top: 1rem;
+    }
+  }
+}
+
+div {
+
+  > {
+
+    h2 {
+      margin-top: 1rem;
+    }
+
+    h3 {
+      margin-top: .5rem;
+    }
+
+    h4 {
+      margin-top: .25rem;
+    }
+  }
+}
+
+li {
+  font-size: 1.125rem;
+}
+
+small {
+  font-size: 85%;
+}
+
+a {
+  &.read-more {
+    color: $primary-color;
+    font-weight: bold;
+    margin-right: .5rem;
+    text-decoration: underline;
+
+    &::before {
+      content: '+ ';
+    }
+  }
+}

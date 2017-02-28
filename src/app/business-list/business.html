@@ -1,0 +1,11 @@
+<a ui-sref="app.businessDetail">
+  <div
+      class="business-list__block"
+      style="background: url({{$ctrl.business.image}}) no-repeat 50% /cover">
+      <section>
+          <h2>{ {{$ctrl.business.company}} }</h2>
+          <p>{{$ctrl.business.description | limitTo:70 }} ...</p>
+      </section>
+      <span>}</span>
+  </div>
+</a>

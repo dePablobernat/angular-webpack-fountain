@@ -1,0 +1,150 @@
+//Media queries mixins
+
+@mixin respond-min($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin respond-max($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin respond-min-max($width-min, $width-max) {
+  @media screen and (min-width: $width-min) and (max-width: $width-max) {
+    @content;
+  }
+}
+
+@mixin respond-min-height($height) {
+  @media screen and (min-height: $height) {
+    @content;
+  }
+}
+
+// Keep a specified aspect ratio.
+// E.g. @include box-aspect-ratio(16/9);
+
+@mixin box-aspect-ratio($ratio: 2) {
+  $gap: 100 / $ratio;
+  height: 0;
+  padding-bottom: #{$gap + '%'};
+  width: 100%;
+}
+
+@mixin aspect-ratio($ratio: 2) {
+  $gap: 100 / $ratio;
+  padding-bottom: #{$gap + '%'};
+}
+
+// Shorthand mixin for the child element.
+
+@mixin fill-parent {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+// =============================================================================
+// Fonts
+// =============================================================================
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+    eot: '?',
+    svg: '#' + str-replace($name, ' ', '_')
+  );
+
+  $formats: (
+    otf: 'opentype',
+    ttf: 'truetype'
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + '.' + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+@mixin bklayout($color: rgba(0,0,0,.3)){
+  &::before {
+      content: '';
+      background: $color;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      z-index: 0;
+  }
+}
+// USAGE
+
+// .container-with-floated-children {
+//   @extend %clearfix;
+// }
+
+
+%clearfix {
+  &::before,
+  &::after {
+    content: ' ';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+//USAGE
+
+// HTML
+// <button class='mobile-navigation-trigger'>
+//   <b class='visually-hidden'>Open the navigation</b>
+//   <img src='img/mobile-navigation-icon.svg'>
+// </button>
+
+// CSS
+// .visually-hidden {
+//   @extend %visuallyhidden;
+// }
+
+%visuallyhidden {
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+}

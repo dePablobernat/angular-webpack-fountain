@@ -1,0 +1,722 @@
+﻿{
+   "companies":[
+      {
+         "id":1,
+         "company":"Gynko",
+         "url":"gynko.com",
+         "balance":"202.782,85 €",
+         "description":"In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+         "email":"tross0@google.com",
+         "image": "https://unsplash.it/900/400/?image=100",
+         "address":{
+            "country":"UK",
+            "street1":"Harvest Grove Orchard",
+            "street2":"595",
+            "postCode":"TN30 7ET",
+            "phone":"+44 07837522469"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Lilian Shepard",
+               "email":"shepardworkman@austex.com",
+               "phone":"661598534"
+            },
+            {
+               "id":1,
+               "name":"Jayne Hobbs",
+               "email":"altacunningham@tubesys.com",
+               "phone":"678536710"
+            },
+            {
+               "id":2,
+               "name":"Sara Erickson",
+               "email":"patrickray@zipak.com",
+               "phone":"639422627"
+            },
+            {
+               "id":3,
+               "name":"Ortiz Decker",
+               "email":"jodilowe@firewax.com",
+               "phone":"649556453"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Office of Mainframe Connectivity"
+            },
+            {
+               "id":1,
+               "name":"Branch of Mainframe Development"
+            },
+            {
+               "id":2,
+               "name":"PC Technology Branch"
+            },
+            {
+               "id":3,
+               "name":"Data Acquisition Committee"
+            },
+            {
+               "id":4,
+               "name":"Bureau of Mainframe Telecommunications Programming and Extranet Network Technology"
+            }
+         ]
+      },
+      {
+         "id":2,
+         "company":"Sequitur",
+         "url":"sequitur",
+         "balance":"79.627,36 €",
+         "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+         "email":"mwright1@booking.com",
+         "image": "https://unsplash.it/900/400/?image=6",
+         "address":{
+            "country":"UK",
+            "street1":"Dewy Dale Mount",
+            "street2":"7210",
+            "postCode":"RH10 1FD",
+            "phone":"+44 07850723737"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Jeanne Wise",
+               "email":"mullinsmays@idetica.com",
+               "phone":"624540075"
+            },
+            {
+               "id":1,
+               "name":"Cathleen Nunez",
+               "email":"wyattruiz@zolarity.com",
+               "phone":"623600977"
+            },
+            {
+               "id":2,
+               "name":"Clarice Juarez",
+               "email":"orahodge@octocore.com",
+               "phone":"608457385"
+            },
+            {
+               "id":3,
+               "name":"Jacklyn Osborne",
+               "email":"pollardclemons@isodrive.com",
+               "phone":"673498207"
+            },
+            {
+               "id":4,
+               "name":"Margarita Gutierrez",
+               "email":"julietcardenas@polaria.com",
+               "phone":"647416738"
+            },
+            {
+               "id":5,
+               "name":"Liliana Flores",
+               "email":"sharondeleon@exerta.com",
+               "phone":"690534323"
+            },
+            {
+               "id":6,
+               "name":"Barbra Boyle",
+               "email":"morrowmoon@zialactic.com",
+               "phone":"636512425"
+            },
+            {
+               "id":7,
+               "name":"Good Bates",
+               "email":"churchwallace@polarax.com",
+               "phone":"679498310"
+            },
+            {
+               "id":8,
+               "name":"Cara Shepherd",
+               "email":"rollinsweeks@accel.com",
+               "phone":"627513320"
+            },
+            {
+               "id":9,
+               "name":"Raymond Stevens",
+               "email":"boonehudson@animalia.com",
+               "phone":"642411085"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Agency of Code Programming"
+            },
+            {
+               "id":1,
+               "name":"Agency of Intranet Software Administration and Security"
+            },
+            {
+               "id":2,
+               "name":"Bureau of Mainframe Telecommunications Programming and Extranet Network Technology"
+            },
+            {
+               "id":3,
+               "name":"Division of Practacal Mainframe Administration and Implementation"
+            }
+         ]
+      },
+      {
+         "id":3,
+         "company":"Magnemo",
+         "url":"magnemocom",
+         "balance":"277.509,92 €",
+         "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+         "email":"awagner2@stanford.edu",
+         "image": "https://unsplash.it/900/400/?image=213",
+         "address":{
+            "country":"UK",
+            "street1":"Amber Glen",
+            "street2":"7920",
+            "postCode":"IV40 8HQ",
+            "phone":"+44 07882218957"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Anastasia Tanner",
+               "email":"nielsentownsend@shepard.com",
+               "phone":"664535900"
+            },
+            {
+               "id":1,
+               "name":"Roslyn Romero",
+               "email":"maddenharmon@idego.com",
+               "phone":"679543126"
+            },
+            {
+               "id":2,
+               "name":"Amelia Edwards",
+               "email":"murphycantrell@tingles.com",
+               "phone":"637505635"
+            },
+            {
+               "id":3,
+               "name":"Gordon Mathis",
+               "email":"adelaallison@genekom.com",
+               "phone":"692593394"
+            },
+            {
+               "id":4,
+               "name":"Caldwell Alvarez",
+               "email":"bettephelps@ovium.com",
+               "phone":"662443617"
+            },
+            {
+               "id":5,
+               "name":"Bush Wiggins",
+               "email":"jillianmcdowell@signidyne.com",
+               "phone":"667522485"
+            },
+            {
+               "id":6,
+               "name":"Lucile David",
+               "email":"cherrysingleton@exoblue.com",
+               "phone":"684427364"
+            },
+            {
+               "id":7,
+               "name":"Cleo Beck",
+               "email":"kelleycantu@lunchpad.com",
+               "phone":"667501506"
+            },
+            {
+               "id":8,
+               "name":"Marta Ferrell",
+               "email":"robinsonmitchell@panzent.com",
+               "phone":"651559031"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Object-Oriented Programming Security and Applied Extranet Technology Team"
+            },
+            {
+               "id":1,
+               "name":"Internet Control and Backup Department"
+            }
+         ]
+      },
+      {
+         "id":4,
+         "company":"Acumentor",
+         "url":"acumentorm",
+         "balance":"295.805,31 €",
+         "description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+         "email":"ahoward3@ftc.gov",
+         "image": "https://unsplash.it/900/400/?image=346",
+         "address":{
+            "country":"UK",
+            "street1":"Red Plaza",
+            "street2":"8059",
+            "postCode":"SW4 0LA",
+            "phone":"+44 07837958252"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Marjorie Albert",
+               "email":"joannemunoz@singavera.com",
+               "phone":"655548482"
+            },
+            {
+               "id":1,
+               "name":"Lourdes Drake",
+               "email":"rutledgelopez@geekology.com",
+               "phone":"655425287"
+            },
+            {
+               "id":2,
+               "name":"Knowles Fields",
+               "email":"dominguezgill@paragonia.com",
+               "phone":"699499082"
+            },
+            {
+               "id":3,
+               "name":"Darla Parsons",
+               "email":"sheltonjacobs@blurrybus.com",
+               "phone":"687560562"
+            },
+            {
+               "id":4,
+               "name":"Willie Alexander",
+               "email":"boothfowler@grainspot.com",
+               "phone":"654508935"
+            },
+            {
+               "id":5,
+               "name":"Rivas Montoya",
+               "email":"estellacarney@buzzmaker.com",
+               "phone":"605454797"
+            },
+            {
+               "id":6,
+               "name":"Greta Hurley",
+               "email":"jaimedowns@fuelworks.com",
+               "phone":"615513328"
+            },
+            {
+               "id":7,
+               "name":"Morrison Mcgowan",
+               "email":"carlenestrickland@magmina.com",
+               "phone":"629430286"
+            },
+            {
+               "id":8,
+               "name":"Bowen Harper",
+               "email":"holliehutchinson@olucore.com",
+               "phone":"624487115"
+            },
+            {
+               "id":9,
+               "name":"Tia Hayden",
+               "email":"salascurtis@anocha.com",
+               "phone":"666556834"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Division of Practacal Mainframe Administration and Implementation"
+            },
+            {
+               "id":1,
+               "name":"Branch of Analytical Network Programming"
+            },
+            {
+               "id":2,
+               "name":"Bureau of Mainframe Source Code Backup"
+            }
+         ]
+      },
+      {
+         "id":5,
+         "company":"Aquafire",
+         "url":"aquafire.us",
+         "balance":"135.680,28 €",
+         "description":"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+         "email":"ralexander4@behance.net",
+         "image": "https://unsplash.it/900/400/?image=122",
+         "address":{
+            "country":"UK",
+            "street1":"Rustic Blossom Run",
+            "street2":"2893",
+            "postCode":"WV6 7NQ",
+            "phone":"+44 07845743866"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Meredith Morin",
+               "email":"jocelynvega@intergeek.com",
+               "phone":"603543127"
+            },
+            {
+               "id":1,
+               "name":"Jones Rivers",
+               "email":"nortonluna@quordate.com",
+               "phone":"681541898"
+            },
+            {
+               "id":2,
+               "name":"Guzman Aguirre",
+               "email":"klinehead@flexigen.com",
+               "phone":"607488923"
+            },
+            {
+               "id":3,
+               "name":"Leona Riddle",
+               "email":"avaholmes@entality.com",
+               "phone":"694594828"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Analytical PC Troubleshooting Department"
+            },
+            {
+               "id":1,
+               "name":"Intranet Network Technology Branch"
+            },
+            {
+               "id":2,
+               "name":"Office of E-Commerce Network Connectivity"
+            }
+         ]
+      },
+      {
+         "id":6,
+         "company":"Deviltoe",
+         "url":"deviltoe",
+         "balance":"335.450,47 €",
+         "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+         "email":"plittle5@pinterest.com",
+         "image": "https://unsplash.it/900/400/?image=65",
+         "address":{
+            "country":"UK",
+            "street1":"Iron Fawn Street",
+            "street2":"1727",
+            "postCode":"PO15 5SB",
+            "phone":"+44 07826338980"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Marisol Reynolds",
+               "email":"jennycasey@ginkogene.com",
+               "phone":"624510063"
+            },
+            {
+               "id":1,
+               "name":"Velma Meyers",
+               "email":"hansonmccormick@geeketron.com",
+               "phone":"637592554"
+            },
+            {
+               "id":2,
+               "name":"Mcmillan Todd",
+               "email":"carrollbuckner@musaphics.com",
+               "phone":"626506044"
+            },
+            {
+               "id":3,
+               "name":"Hannah Finley",
+               "email":"shermanmorrison@rugstars.com",
+               "phone":"662438560"
+            },
+            {
+               "id":4,
+               "name":"Jimenez Collins",
+               "email":"fisherlyons@isologix.com",
+               "phone":"639512612"
+            },
+            {
+               "id":5,
+               "name":"Latonya Kinney",
+               "email":"fernavila@venoflex.com",
+               "phone":"691406014"
+            },
+            {
+               "id":6,
+               "name":"Stephanie Harris",
+               "email":"monroerush@optique.com",
+               "phone":"679413507"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Agency of Code Programming"
+            },
+            {
+               "id":1,
+               "name":"Agency of Intranet Software Administration and Security"
+            },
+            {
+               "id":2,
+               "name":"Bureau of Mainframe Telecommunications Programming and Extranet Network Technology"
+            },
+            {
+               "id":3,
+               "name":"Division of Practacal Mainframe Administration and Implementation"
+            }
+         ]
+      },
+      {
+         "id":7,
+         "company":"Endipine",
+         "url":"endipinet.co.uk",
+         "balance":"255.194,20 €",
+         "description":"Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+         "email":"cpowell6@marketwatch.com",
+         "image": "https://unsplash.it/900/400/?image=554",
+         "address":{
+            "country":"UK",
+            "street1":"Merry Pony Wynd",
+            "street2":"2358",
+            "postCode":"PH2 9QX",
+            "phone":"+44 07878073223"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Alvarez Cummings",
+               "email":"parksdillard@quailcom.com",
+               "phone":"671401489"
+            },
+            {
+               "id":1,
+               "name":"Mcintyre Jordan",
+               "email":"fischertyler@barkarama.com",
+               "phone":"670562880"
+            },
+            {
+               "id":2,
+               "name":"Ochoa Gonzalez",
+               "email":"dillardmccall@vertide.com",
+               "phone":"669532263"
+            },
+            {
+               "id":3,
+               "name":"Osborne Mendoza",
+               "email":"zamorasmith@terrasys.com",
+               "phone":"678403936"
+            }
+         ]
+      },
+      {
+         "id":8,
+         "company":"Moreganic",
+         "url":"moreganicom",
+         "balance":"162.145,31 €",
+         "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+         "email":"dfuller7@hhs.gov",
+         "image": "https://unsplash.it/900/400/?image=43",
+         "address":{
+            "country":"UK",
+            "street1":"Golden Branch Edge",
+            "street2":"1287",
+            "postCode":"TS17 8AS",
+            "phone":"+44 07848105509"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Whitney Bell",
+               "email":"odonnellcash@quility.com",
+               "phone":"615547292"
+            },
+            {
+               "id":1,
+               "name":"Crane Carpenter",
+               "email":"tamaracurry@digigene.com",
+               "phone":"609571646"
+            },
+            {
+               "id":2,
+               "name":"Valenzuela Burns",
+               "email":"scottcombs@splinx.com",
+               "phone":"634549026"
+            },
+            {
+               "id":3,
+               "name":"Rogers Cline",
+               "email":"bridgettelancaster@isotronic.com",
+               "phone":"690414030"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Office of Mainframe Connectivity"
+            },
+            {
+               "id":1,
+               "name":"Branch of Mainframe Development"
+            },
+            {
+               "id":2,
+               "name":"PC Technology Branch"
+            },
+            {
+               "id":3,
+               "name":"Data Acquisition Committee"
+            }
+         ]
+      },
+      {
+         "id":9,
+         "company":"Earthwax",
+         "url":"earthwaxom",
+         "balance":"76.624,41 €",
+         "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+         "email":"cbell8@census.gov",
+         "image": "https://unsplash.it/900/400/?image=78",
+         "address":{
+            "country":"UK",
+            "street1":"Umber Canyon",
+            "street2":"1071",
+            "postCode":"PO31 8AA",
+            "phone":"+44 07864636852"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Colette Bartlett",
+               "email":"cruzcraft@earbang.com",
+               "phone":"617417869"
+            },
+            {
+               "id":1,
+               "name":"Isabel Ware",
+               "email":"alanahaley@quiltigen.com",
+               "phone":"613486687"
+            },
+            {
+               "id":2,
+               "name":"Arnold Sampson",
+               "email":"berthawilkinson@anacho.com",
+               "phone":"633412818"
+            },
+            {
+               "id":3,
+               "name":"Bender Hampton",
+               "email":"goldiechan@netropic.com",
+               "phone":"623521450"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Division of Practacal Mainframe Administration and Implementation"
+            },
+            {
+               "id":1,
+               "name":"Branch of Analytical Network Programming"
+            },
+            {
+               "id":2,
+               "name":"Bureau of Mainframe Source Code Backup"
+            }
+         ]
+      },
+      {
+         "id":10,
+         "company":"Flumbo",
+         "url":"flumbot.com",
+         "balance":"176.137,61 €",
+         "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+         "email":"kmiller9@dailymail.co.uk",
+         "image": "https://unsplash.it/900/400/?image=42",
+         "address":{
+            "country":"UK",
+            "street1":"Burning View Bank",
+            "street2":"5347",
+            "postCode":"OX11 9HT",
+            "phone":"+44 07858091028"
+         },
+         "employees":[
+            {
+               "id":0,
+               "name":"Cervantes Cleveland",
+               "email":"fayerodriquez@paprikut.com",
+               "phone":"628572032"
+            },
+            {
+               "id":1,
+               "name":"Dana Russell",
+               "email":"beulahbond@collaire.com",
+               "phone":"634539982"
+            },
+            {
+               "id":2,
+               "name":"Mccullough Garcia",
+               "email":"trishamcintyre@twiist.com",
+               "phone":"633520092"
+            },
+            {
+               "id":3,
+               "name":"Smith Tran",
+               "email":"mooredorsey@emoltra.com",
+               "phone":"620579811"
+            },
+            {
+               "id":4,
+               "name":"Eaton Branch",
+               "email":"vangsawyer@inrt.com",
+               "phone":"673467106"
+            },
+            {
+               "id":5,
+               "name":"Ramona Hardin",
+               "email":"leachcompton@pearlessa.com",
+               "phone":"635560640"
+            },
+            {
+               "id":6,
+               "name":"Fowler Skinner",
+               "email":"brittcarson@fanfare.com",
+               "phone":"683563014"
+            },
+            {
+               "id":7,
+               "name":"Hilda Dyer",
+               "email":"pooleschwartz@comtour.com",
+               "phone":"635479888"
+            },
+            {
+               "id":8,
+               "name":"Mitchell Bernard",
+               "email":"allendaniels@vinch.com",
+               "phone":"627455284"
+            },
+            {
+               "id":9,
+               "name":"Lowe Evans",
+               "email":"madeleinemann@orbiflex.com",
+               "phone":"616432817"
+            }
+         ],
+         "departments":[
+            {
+               "id":0,
+               "name":"Office of Mainframe Connectivity"
+            },
+            {
+               "id":1,
+               "name":"Branch of Mainframe Development"
+            },
+            {
+               "id":2,
+               "name":"PC Technology Branch"
+            }
+         ]
+      }
+   ]
+}
