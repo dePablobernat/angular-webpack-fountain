@@ -5,11 +5,11 @@ function businessDetailController($http, $stateParams) {
   $http
     .get('app/listing.json')
     .then(function (response) {
-      vm.businessList = response.data.companies;
-      vm.businessList.forEach(company => {
+      vm.businessDetail = response.data.companies;
+      vm.businessDetail.forEach(company => {
         if (company.id === 1) {
           console.log(company);
-          return company;
+          vm.businessDetail = company;
         }
       });
     });

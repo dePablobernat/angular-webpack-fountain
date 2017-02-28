@@ -1,3 +1,28 @@
-<div class="component" >
-  <h2 >{{$ctrl.text}}</h2>
+<div class="component container" >
+  <header style="background: url({{$ctrl.businessDetail.image}}) no-repeat 50% / cover; padding: 50px;">
+    <h2 >{{$ctrl.businessDetail.company}} <br><small>{{$ctrl.businessDetail.url}}</small></h2>
+  </header>
+  <p>{{$ctrl.businessDetail.description}}</p>
+  <a href="mailto:{{$ctrl.businessDetail.email}}"><p>{{$ctrl.businessDetail.email}}</p></a>
+  <address>
+    <span>{{$ctrl.businessDetail.address.street1}}</span>
+    <span>{{$ctrl.businessDetail.address.street2}}</span>
+    <span>{{$ctrl.businessDetail.address.country}}</span>
+    <span>{{$ctrl.businessDetail.address.postCode}}</span>
+    <span>{{$ctrl.businessDetail.address.phone}}</span>
+  </address>
+  <div class="employees">
+      <div ng-repeat="employee in $ctrl.businessDetail.employees">
+        <a ui-sref="{{employee.id}}">
+          <p>{{employee.name}}</p>
+          <p>{{employee.phone}}</p>
+          <p>{{employee.email}}</p>
+        </a>
+      </div>
+  </div>
+  <div class="departments">
+      <div ng-repeat="department in $ctrl.businessDetail.departments">
+        <a ui-sref="{{department.id}}"><p>{{department.name}}</p></a>
+      </div>
+  </div>
 </div>
