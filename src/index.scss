@@ -6,6 +6,7 @@
 *{
   box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -38,9 +39,11 @@ section {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 ul{
     padding-left: 0;
 }
+
 li{
     list-style-type: none;
 }

@@ -10,8 +10,8 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       url: '/',
       component: 'app'
     })
-    .state('app.businessDetail', {
-      url: 'business-detail',
-      templateUrl: './app/business-detail/businessDetail.html'
+    .state('businessDetail', {
+      component: 'businessDetail',
+      url: '/business-detail/{id}'
     });
 }
