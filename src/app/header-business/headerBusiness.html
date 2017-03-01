@@ -1,8 +1,12 @@
 <header style="background: url({{$ctrl.headerBusiness.imageLarge}}) no-repeat 50% / cover;">
-  <h2 >{{$ctrl.headerBusiness.company}} <br><small>{{$ctrl.headerBusiness.url}}</small></h2>
+  <div class="title">
+    <h2 class="title__main">{{$ctrl.headerBusiness.company}}</h2>
+    <h3 class="title__submain">{{$ctrl.headerBusiness.url}}</h3>
+  </div>
   <address>
-    <span>{{$ctrl.headerBusiness.address.phone}}</span>
-    <span>{{$ctrl.headerBusiness.address.street1}}, {{$ctrl.headerBusiness.address.street2}}, {{$ctrl.headerBusiness.address.country}}, {{$ctrl.headerBusiness.address.postCode}}</span>
-    <span><a href="mailto:{{$ctrl.headerBusiness.email}}">{{$ctrl.headerBusiness.email}}</a></span>
+    <span><i class="fa fa-phone"></i><br><small>{{$ctrl.headerBusiness.address.phone}}</small></span>
+    <span><i class="fa fa-home"></i><br>
+    <small>{{$ctrl.headerBusiness.address.street1}}, {{$ctrl.headerBusiness.address.street2}}, {{$ctrl.headerBusiness.address.country}}, {{$ctrl.headerBusiness.address.postCode}}</small></span>
+    <span><a href="mailto:{{$ctrl.headerBusiness.email}}"><i class="fa fa-envelope-o"></i><br><small>{{$ctrl.headerBusiness.email}}</small></a></span>
   </address>
 </header>

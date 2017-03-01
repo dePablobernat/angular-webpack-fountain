@@ -1,0 +1,7 @@
+<div class="departments">
+  <div
+    class="department"
+    ng-repeat="department in $ctrl.businessDepartments.departments">
+      <a ui-sref="{{department.id}}"><p>{{department.name}}</p></a>
+  </div>
+</div>

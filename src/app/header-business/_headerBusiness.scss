@@ -1,0 +1,62 @@
+header-business {
+  overflow-x: hidden;
+  header {
+    @include bklayout(rgba(0,0,0,.5));
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 86%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 19%;
+    .title {
+      > * {
+        position: relative;
+        color: $white;
+        text-align: center;
+        text-shadow: 0px 1px 1px rgba(255,255,255,.5);
+      }
+      .title__main {
+        font-size: 3rem;
+        margin-bottom: 0;
+        line-height: 0.6;
+      }
+    }
+    address {
+      @include respond-min($mobile-size) {
+        flex-direction: row;
+        padding: 0;
+      }
+      position: relative;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      font-style: normal;
+      flex-direction: column;
+      padding: 0 50px;
+      align-items: center;
+      > span {
+        min-width: 200px;
+        flex: 1;
+        text-align: center;
+        color: $white;
+        padding: 20px;
+        &:nth-child(2) {
+          @include respond-min($mobile-size) {
+            border-left: solid 1px white;
+            border-right: solid 1px white;
+            border-top: 0;
+            border-bottom: 0;
+          }
+          border-top: solid 1px white;
+          border-bottom: solid 1px white;
+          flex: 2;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover{text-decoration: underline}
+        }
+      }
+    }
+  }
+}

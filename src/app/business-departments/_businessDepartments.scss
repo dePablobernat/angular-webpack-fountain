@@ -1,0 +1,52 @@
+business-departments{
+.departments {
+    @include respond-min($desktop-size) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    display: flex;
+    flex-direction: column;
+    .department {
+      @include respond-min($desktop-size) {
+        flex-grow: 1;
+        min-width: calc(50% - 10px);
+        height: 200px;
+        margin: 5px;
+      }
+      margin: 5px 0;
+      padding: 20px;
+      background: $secondary-color;
+      display: flex;
+      align-items: center;
+      &:hover {
+        &::after {
+          left: 20px;
+        }
+      }
+      a {
+        flex: 3;
+      }
+      p {
+        @include respond-min($desktop-size) {
+          font-size: 1.5rem;
+        }
+        padding-bottom: 0;
+        font-size: 1rem;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $white;
+      }
+      &::after {
+        flex: 1;
+        position: relative;
+        text-align: center;
+        font-size: 50px;
+        content: '}';
+        color: $white;
+        transition: left .1s ease-in-out;
+        left: 0;
+      }
+    }
+  }
+}
