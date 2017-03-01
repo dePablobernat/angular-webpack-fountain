@@ -1,48 +1,49 @@
 business-list {
+  display: flex;
+  flex-wrap:wrap;
+  business {
+    @include respond-min($mobile-size) {
+      width: 50%
+    }
+    text-decoration: none;
+    display: block;
     display: flex;
-    flex-wrap:wrap;
-    business {
-        @include respond-min($mobile-size) {
-            width: 50%
-        }
-        text-decoration: none;
-        display: block;
-        display: flex;
-        width: 100%;
-        &:hover {
-            span {
-                left: 20px;
-            }
-        }
-        > a {
-          display: flex;
-          align-items: stretch;
-          width: 100%;
-        }
+    width: 100%;
+    &:hover {
+      span {
+        left: 20px;
+      }
     }
-    .business-list__block {
-        @include bklayout();
-        align-items: center;
-        display: flex;
-        position: relative;
-        color: $white;
-        padding: 50px;
-        width: 100%;
-        section {
-            position: relative;
-            flex: 2;
-            h2 {
-                text-transform: uppercase;
-            }
-        }
-        span {
-            color: $white;
-            text-align: center;
-            font-size: 35px;
-            position: relative;
-            left: 0;
-            flex: 1;
-            transition: left .1s ease-in-out;
-        }
+    > a {
+      display: flex;
+      align-items: stretch;
+      width: 100%;
+      text-decoration: none;
     }
+  }
+  .business-list__block {
+    @include bklayout();
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: $white;
+    padding: 50px;
+    width: 100%;
+    section {
+      position: relative;
+      flex: 2;
+      h2 {
+        text-transform: uppercase;
+      }
+    }
+    span {
+      color: $white;
+      text-align: center;
+      font-size: 35px;
+      position: relative;
+      left: 0;
+      flex: 1;
+      transition: left .1s ease-in-out;
+    }
+  }
 }

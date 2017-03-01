@@ -5,11 +5,9 @@ module.exports = {
 
 /** @ngInject */
 function BusinessListController($http) {
-  var vm = this;
-
   $http
     .get('app/listing.json')
-    .then(function (response) {
-      vm.businessList = response.data;
+    .then(response => {
+      this.businessList = response.data;
     });
 }

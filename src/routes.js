@@ -12,6 +12,6 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('businessDetail', {
       component: 'businessDetail',
-      url: '/business-detail/{id}'
+      url: '/business-detail/{company}'
     });
 }

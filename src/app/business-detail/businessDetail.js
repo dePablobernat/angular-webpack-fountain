@@ -1,15 +1,13 @@
 function businessDetailController($http, $stateParams) {
-  var vm = this;
-  self.id = $stateParams.id;
+  var companyName = $stateParams.company;
 
   $http
     .get('app/listing.json')
-    .then(function (response) {
-      vm.businessDetail = response.data.companies;
-      vm.businessDetail.forEach(company => {
-        if (company.id === 1) {
-          console.log(company);
-          vm.businessDetail = company;
+    .then(response => {
+      this.businessDetail = response.data.companies;
+      this.businessDetail.forEach(company => {
+        if (company.company.toLowerCase() === companyName) {
+          this.businessDetail = company;
         }
       });
     });

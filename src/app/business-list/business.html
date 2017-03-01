@@ -1,4 +1,4 @@
-<a ui-sref="businessDetail({id:{{$ctrl.business.id}}, company:{{$ctrl.business.company | lowercase}}})">
+<a ui-sref="businessDetail({company:'{{$ctrl.business.company | lowercase}}'})">
   <div
       class="business-list__block"
       style="background: url({{$ctrl.business.image}}) no-repeat 50% /cover">

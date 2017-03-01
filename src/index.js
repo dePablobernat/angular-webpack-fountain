@@ -7,6 +7,7 @@ var main = require('./app/main');
 var business = require('./app/business-list/business');
 var businessList = require('./app/business-list/business-list');
 var businessDetail = require('./app/business-detail/businessDetail');
+var headerBusiness = require('./app/header-business/headerBusiness');
 var footer = require('./app/footer');
 require('./index.scss');
 
@@ -17,5 +18,6 @@ angular
   .component('fountainHeader', header)
   .component('businessList', businessList)
   .component('business', business)
+  .component('headerBusiness', headerBusiness)
   .component('businessDetail', businessDetail)
   .component('fountainFooter', footer);
