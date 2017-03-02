@@ -10,6 +10,7 @@
     "@types/jquery": "^2.0.40",
     "angular-mocks": "^1.6.2",
     "autoprefixer": "^6.7.3",
+    "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
     "browser-sync": "^2.18.8",
     "browser-sync-spa": "^1.0.3",
