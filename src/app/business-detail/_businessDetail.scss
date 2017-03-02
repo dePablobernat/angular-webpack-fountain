@@ -50,7 +50,10 @@ business-detail {
           height: calc(100% / 3);
           span {
             flex: 4;
-            padding: 30px;
+            padding: 12px;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
           }
           span:first-child {
             flex: 1;

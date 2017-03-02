@@ -1,25 +1,43 @@
 business-departments{
-.departments {
+  @include respond-min ($desktop-size) {
+    flex-direction: row;
+  }
+  background: $black;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  .departments-title {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  .departments {
     @include respond-min($desktop-size) {
       flex-direction: row;
       flex-wrap: wrap;
     }
+    flex: 2;
     display: flex;
     flex-direction: column;
     .department {
       @include respond-min($desktop-size) {
         flex-grow: 1;
         min-width: calc(50% - 10px);
-        height: 200px;
         margin: 5px;
+        padding: 10px;
       }
       margin: 5px 0;
-      padding: 20px;
-      background: $secondary-color;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
       &:hover {
-        &::after {
+        i {
           left: 20px;
         }
       }
@@ -35,14 +53,12 @@ business-departments{
         margin: 0;
         text-transform: uppercase;
         font-weight: bold;
-        color: $white;
+        color: $secondary-color;
       }
-      &::after {
+      i {
         flex: 1;
         position: relative;
         text-align: center;
-        font-size: 50px;
-        content: '}';
         color: $white;
         transition: left .1s ease-in-out;
         left: 0;
